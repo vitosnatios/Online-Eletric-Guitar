@@ -27,6 +27,8 @@ h2 {
 }
 .guitar {
     padding: 30px;
+    position:relative;
+    font-size: 0.6rem;
 }
 h1,h2,h3 {
     color: #999C9E;
@@ -40,4 +42,7 @@ h1,h2,h3 {
 }
 svg {
     width: 3.5rem;
+}
+.divButtons{
+    width: 30rem;
 }
