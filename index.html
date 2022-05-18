@@ -13,11 +13,14 @@
     <div class="objetos">
     <h1 id="title">Guitarra do Vitosnatios</h1>
     <h3>Lave as mãos antes de usá-la, obrigado.</h3>
-    <h2>Use com <strong>CAPSLOCK</strong> ativado ou clique!</h2>
+    <h2>Toque com o <strong>teclado</strong> ou clique!</h2>
     <div class ="guitarBoard">
-    <div class="divButtons">
         <h4></h4>
-    </div>
+        <p class="dist">Distortion:
+        <label class="switch">
+        <input type="checkbox" onClick="setDistortion()">
+        <span class="slider"></span></p>
+        </label>
     <div class="putSong"><button onclick="playBackingTrack()" class="btn btn-outline-primary playSong">Backingtrack</button></div>
     <div><button onclick="stopBackingTrack()" class="btn btn-outline-danger stopSong">Tirar backingtrack</button></div>
     <a href="https://github.com/vitosnatios"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black" class="bi bi-github" viewBox="0 0 16 16">
